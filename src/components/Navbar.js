@@ -1,7 +1,15 @@
 import React from "react";
+import { FaBars } from "react-icons/fa";
 
 function Navbar() {
-	return <div>This is a navbar</div>;
+	return (
+		<nav className="nav">
+			<img src="../images/Kenz.png" alt="logo" className="logo" />
+			<div className="menu-btn">
+				<FaBars />
+			</div>
+		</nav>
+	);
 }
 
 export default Navbar;
