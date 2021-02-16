@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Kaushan Script", cursive;
+	font-family: "Poppins", sans-serif;
+	box-sizing: border-box;
+	text-overflow: ellipsis;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* for Home page */
+.banner {
+	border: 2px solid green;
+	height: 100vh;
+	background: url(images/Hero.jpg);
+	background-size: cover;
+	background-position: 60% 80%;
+	text-align: center;
+	min-height: 812px;
+}
+.banner > h1 {
+	font-size: 44px;
+	font-family: "Kaushan Script", cursive;
+	color: white;
+	margin: 80px auto 20px auto;
+}
+
+.banner > p {
+	font-size: small;
+	width: 50%;
+	margin: 10px auto 50px auto;
+}
+.banner-btn a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-family: "Kaushan Script", cursive;
+	/* border: 2px solid black; */
+	width: 35%;
+	margin: 5px auto 5px auto;
+	border-radius: 5px;
+	min-width: 35px;
+	font-size: 20px;
+	transition: width 0.5s;
+	text-transform: capitalize;
+}
+.banner-btn a:hover {
+	color: white;
+	width: 36%;
+	background: black;
 }
