@@ -1,4 +1,15 @@
 import lighthouselabs from "./images/lighthouselabs.jpg";
+import {
+	FaHome,
+	FaFileAlt,
+	FaChalkboardTeacher,
+	FaUserFriends,
+	FaBehance,
+	FaFacebook,
+	FaLinkedin,
+	FaTwitter,
+	FaSketch,
+} from "react-icons/fa";
 
 export const exp = [
 	{
@@ -57,5 +68,39 @@ export const reference = [
 		title: "Supervisor",
 		quote:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium unde necessitatibus est non commodi. Doloribus iure nihil explicabo dolore fugiat autem dolorum provident soluta sunt, maxime impedit consectetur exercitationem nemo",
+	},
+];
+
+export const sidebar = [
+	{ id: 1, url: "/", text: "home", icon: <FaHome /> },
+	{ id: 2, url: "/experience", text: "experience", icon: <FaFileAlt /> },
+	{ id: 3, url: "/project", text: "projects", icon: <FaChalkboardTeacher /> },
+	{ id: 4, url: "/reference", text: "reference", icon: <FaUserFriends /> },
+];
+export const social = [
+	{
+		id: 1,
+		url: "https://www.twitter.com",
+		icon: <FaFacebook />,
+	},
+	{
+		id: 2,
+		url: "https://www.twitter.com",
+		icon: <FaTwitter />,
+	},
+	{
+		id: 3,
+		url: "https://www.twitter.com",
+		icon: <FaLinkedin />,
+	},
+	{
+		id: 4,
+		url: "https://www.twitter.com",
+		icon: <FaBehance />,
+	},
+	{
+		id: 5,
+		url: "https://www.twitter.com",
+		icon: <FaSketch />,
 	},
 ];
