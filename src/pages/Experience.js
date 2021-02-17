@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { exp } from "../data";
+import CvModal from "../components/CvModal";
 
 function Experience() {
 	const [experience, setExperience] = useState(exp);
@@ -29,8 +30,9 @@ function Experience() {
 					})}
 				</div>
 				<button className="resume">
-					<a href="#">Look At My CV</a>
+					<a href="#">Show CV</a>
 				</button>
+				<CvModal />
 			</section>
 		</>
 	);

@@ -13,7 +13,7 @@ function Home() {
 					7 years of experience in Manufacturing. My main goal in tech industry
 					is to make web applications that help people solve problems.
 				</p>
-				<div class="banner-btn">
+				<div className="banner-btn">
 					<a href="/experience">experience</a>
 					<a href="/Experience">projects</a>
 					<a href="/reference">reference</a>
