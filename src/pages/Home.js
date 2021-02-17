@@ -1,6 +1,7 @@
 import React from "react";
 import Experience from "./Experience";
 import Project from "./Project";
+import Ref from "./Ref";
 
 function Home() {
 	return (
@@ -20,6 +21,7 @@ function Home() {
 			</section>
 			<Experience />
 			<Project />
+			<Ref />
 		</>
 	);
 }

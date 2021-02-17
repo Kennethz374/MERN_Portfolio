@@ -32,3 +32,30 @@ export const exp = [
 		date: "2020",
 	},
 ];
+
+export const reference = [
+	{
+		id: 1,
+		images: "",
+		name: "William Yu",
+		title: "Production Manager",
+		quote:
+			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium unde necessitatibus est non commodi. Doloribus iure nihil explicabo dolore fugiat autem dolorum provident soluta sunt, maxime impedit consectetur exercitationem nemo",
+	},
+	{
+		id: 2,
+		images: "",
+		name: "Shahil Prasad",
+		title: "Production Manager",
+		quote:
+			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium unde necessitatibus est non commodi. Doloribus iure nihil explicabo dolore fugiat autem dolorum provident soluta sunt, maxime impedit consectetur exercitationem nemo",
+	},
+	{
+		id: 3,
+		images: "",
+		name: "Steven Chan",
+		title: "Production Manager",
+		quote:
+			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium unde necessitatibus est non commodi. Doloribus iure nihil explicabo dolore fugiat autem dolorum provident soluta sunt, maxime impedit consectetur exercitationem nemo",
+	},
+];

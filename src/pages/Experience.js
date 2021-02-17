@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { exp } from "../data";
 
 function Experience() {
+	const [experience, setExperience] = useState(exp);
 	return (
 		<>
 			<section className="exp">
@@ -11,7 +12,7 @@ function Experience() {
 					<p>Experience</p>
 				</div>
 				<div className="exp-box">
-					{exp.map((single) => {
+					{experience.map((single) => {
 						const { id, organization, image, date, desc } = single;
 						return (
 							<div key={id} className="exp-desc">
