@@ -36,7 +36,7 @@ export const exp = [
 export const reference = [
 	{
 		id: 1,
-		images: "",
+		images: "https://i.ibb.co/HYmr2wB/SFU.png",
 		name: "William Yu",
 		title: "Production Manager",
 		quote:
@@ -44,17 +44,17 @@ export const reference = [
 	},
 	{
 		id: 2,
-		images: "",
+		images: "https://i.ibb.co/HYmr2wB/SFU.png",
 		name: "Shahil Prasad",
-		title: "Production Manager",
+		title: "Senior Operator in FLIR IIS",
 		quote:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium unde necessitatibus est non commodi. Doloribus iure nihil explicabo dolore fugiat autem dolorum provident soluta sunt, maxime impedit consectetur exercitationem nemo",
 	},
 	{
 		id: 3,
-		images: "",
+		images: "https://i.ibb.co/HYmr2wB/SFU.png",
 		name: "Steven Chan",
-		title: "Production Manager",
+		title: "Supervisor",
 		quote:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium unde necessitatibus est non commodi. Doloribus iure nihil explicabo dolore fugiat autem dolorum provident soluta sunt, maxime impedit consectetur exercitationem nemo",
 	},

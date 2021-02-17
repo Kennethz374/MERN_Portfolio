@@ -211,37 +211,51 @@ hr {
 	order: 1;
 }
 /* Reference */
-.reference-box {
-	/* border: 3px solid pink; */
-	background-color: #f1f5f8;
-	margin: auto;
-	overflow: hidden;
+#reference {
+	width: 100%;
+	padding: 70px 0;
 }
 
-.reference-container {
-	border: 4px solid green;
-	text-align: center;
-	width: 60%;
-	margin: auto;
-}
-.reference-container > img {
-	border: 4px solid black;
-	height: 150px;
-	width: 150px;
-	border-radius: 50%;
-	object-fit: cover;
-}
-
-.icon-container {
-	border: 4px solid pink;
-	width: 75%;
+.reference-row {
+	width: 80%;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
 }
-.ref-icon {
-	background-color: rgb(55, 72, 117);
-	width: 2.5rem;
-	height: 2.5rem;
-	/* display: block; */
+.reference-col {
+	flex-basis: 28%;
+	padding: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px 3px #7678c5;
+	cursor: pointer;
+	transition: transform 0.5s;
+}
+.reference-col p {
+	font-size: 14px;
+}
+.user {
+	display: flex;
+	margin: 20px 0;
+	align-items: center;
+}
+
+.user img {
+	width: 40px;
+	margin-right: 20px;
+	border-radius: 3px;
+}
+.user-info small {
+	color: #7678c5;
+}
+
+.reference-col:hover {
+	transform: translateY(-15px);
+}
+@media screen and (max-width: 770px) {
+	.reference-col {
+		flex-basis: 100%;
+	}
 }
