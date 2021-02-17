@@ -1,5 +1,6 @@
 import React from "react";
-import Project from "./Experience";
+import Experience from "./Experience";
+import Project from "./Project";
 
 function Home() {
 	return (
@@ -13,10 +14,11 @@ function Home() {
 				</p>
 				<div class="banner-btn">
 					<a href="/experience">experience</a>
-					<a href="/project">projects</a>
+					<a href="/Experience">projects</a>
 					<a href="/reference">reference</a>
 				</div>
 			</section>
+			<Experience />
 			<Project />
 		</>
 	);
