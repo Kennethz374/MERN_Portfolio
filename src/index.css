@@ -75,14 +75,9 @@ a {
 
 /* Experience page*/
 .exp {
-	/* border: 1px solid tomato; */
-	/* background-color: #efefef; */
-	/* height: 100vh; */
-	/* border: 1px solid pink; */
 }
 
 .title-exp {
-	/* border: 2px solid blanchedalmond; */
 	text-align: center;
 	padding: 20px;
 }
@@ -93,7 +88,7 @@ a {
 }
 
 .exp-box {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 }
 hr {
@@ -103,18 +98,18 @@ hr {
 }
 
 .exp-desc {
-	/* border: 1px solid black; */
-	/* flex-basis: 50%;  */
 	margin-bottom: 20px;
 }
-.exp-image {
-	/* border: 5px solid green; */
-	/* flex-basis: 50%; */
+.exp-desc h1 {
+	font-size: 20px;
 }
+.card-content p {
+	font-size: 10px;
+}
+
 .card-title {
 	display: flex;
 	justify-content: space-between;
-	/* border: 1px solid gold; */
 	margin: 5px;
 	padding: 5px;
 }
@@ -124,11 +119,8 @@ hr {
 .card-content {
 	display: flex;
 	margin-bottom: 20px;
-	/* border: 5px solid green; */
-	/* justify-content: space-between; */
 }
 .card-content > img {
-	/* display: block; */
 	width: 60px;
 	height: 60px;
 	border: 1px solid black;
@@ -137,26 +129,20 @@ hr {
 }
 .card-content > p {
 	padding: 0 20px;
-	/* text-align: left; */
-	/* border: 1px solid gold; */
 	display: block;
 }
 
-/* .exp-image img {
-	width: 80%;
-} */
 .resume {
-	/* border: 1px solid green; */
-	display: block;
-	margin: 40px auto;
-	border-radius: 10px;
-	background-color: #efefef;
-}
-.resume a {
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-align: center;
 	text-decoration: none;
-	font-size: 20px;
-	padding: 10px;
-	color: black;
+	background-color: rgb(25, 68, 82);
+	border: none;
+	color: white;
+	display: block;
+	margin: 10px auto;
 }
 
 /* projects */
@@ -173,7 +159,7 @@ hr {
 	margin: 25px auto;
 	border-radius: 10px;
 	transition: width 0.5s;
-	/* background-color:rgba(red, green, blue, alpha); */
+	background-color: #7a6a6a;
 }
 .project-container:hover {
 	width: 82%;
@@ -206,15 +192,19 @@ hr {
 	padding: 5px;
 	border: 2px solid black;
 	color: black;
-	font-size: 20px;
+	font-size: 15px;
 	border-radius: 10px;
 	margin: 5px;
+	background-color: rgba(34, 57, 87, 0.404);
 }
 .project-content {
-	/* border: 5px solid pink; */
 	padding: 15px;
 	order: 1;
 }
+.project-content > p {
+	font-size: 12px;
+}
+
 /* Reference */
 #reference {
 	width: 100%;
@@ -385,7 +375,7 @@ hr {
 	row-gap: 1rem;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 	transition: all 0.3s linear;
-	transform: translate(-100%);
+	transform: translate(100%);
 }
 .show-sidebar {
 	transform: translate(0);
