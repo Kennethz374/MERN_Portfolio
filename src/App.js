@@ -6,6 +6,7 @@ import Experience from "./pages/Experience";
 import Error from "../src/pages/Error";
 import Navbar from "../src/components/Navbar";
 import Project from "../src/pages/Project";
+import Sidebar from "./components/Sidebar";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 				<Project exact path="/project" />
 				<Error path="*" />
 			</Switch>
+			<Sidebar />
 		</Router>
 	);
 }

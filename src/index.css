@@ -75,6 +75,8 @@ a {
 
 /* Experience page*/
 .exp {
+	display: flex;
+	flex-direction: column;
 }
 
 .title-exp {
@@ -88,7 +90,8 @@ a {
 }
 
 .exp-box {
-	width: 90%;
+	width: 85%;
+	flex-basis: 100%;
 	margin: auto;
 }
 hr {
@@ -144,22 +147,71 @@ hr {
 	display: block;
 	margin: 10px auto;
 }
+.exp-img {
+	display: none;
+}
 
+@media screen and (min-width: 770px) {
+	.exp-desc h1 {
+		font-size: 30px;
+	}
+	.card-content p {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.exp-desc h1 {
+		font-size: 30px;
+	}
+	.card-content p {
+		font-size: 15px;
+	}
+	.card-content > img {
+		width: 80px;
+		height: 80px;
+		border: 2px solid black;
+		border-radius: 10px;
+		margin: auto 10px;
+	}
+
+	.exp-box {
+		/* border: 4px solid green; */
+		display: flex;
+	}
+	.mobile-box {
+		flex-basis: 60%;
+	}
+	.exp-img {
+		display: block;
+		flex-basis: 40%;
+		/* border: 2px solid gold; */
+		align-items: center;
+	}
+	.exp-img > img {
+		display: block;
+		/* margin: auto; */
+		/* border: 3px solid pink; */
+		width: 100%;
+		height: 100%;
+		border-radius: 15px;
+	}
+}
 /* projects */
 .projects-box {
-	background-color: #efefef;
+	background-color: #e9d0d06e;
 	padding: 2px;
 	margin: auto;
 }
 
 .project-container {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	padding: 2px;
 	width: 80%;
 	margin: 25px auto;
 	border-radius: 10px;
 	transition: width 0.5s;
-	background-color: #7a6a6a;
+	background-color: #43a68093;
 }
 .project-container:hover {
 	width: 82%;
@@ -169,6 +221,7 @@ hr {
 	border-bottom: 2px solid black;
 	padding: 2px;
 	text-align: center;
+	color: white;
 }
 .project-img img {
 	/* border: 3px solid black; */
@@ -179,6 +232,7 @@ hr {
 	display: flex;
 	border-top: 2px solid black;
 	padding: 5px;
+	color: white;
 }
 .project-nav {
 	display: flex;
@@ -191,7 +245,7 @@ hr {
 	text-align: center;
 	padding: 5px;
 	border: 2px solid black;
-	color: black;
+	color: white;
 	font-size: 15px;
 	border-radius: 10px;
 	margin: 5px;

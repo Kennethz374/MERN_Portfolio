@@ -2,7 +2,6 @@ import React from "react";
 import Experience from "./Experience";
 import Project from "./Project";
 import Ref from "./Ref";
-import Sidebar from "../components/Sidebar";
 
 function Home() {
 	return (
@@ -23,7 +22,6 @@ function Home() {
 			<Experience />
 			<Project />
 			<Ref />
-			<Sidebar />
 		</>
 	);
 }
