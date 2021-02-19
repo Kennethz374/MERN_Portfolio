@@ -9,46 +9,95 @@ function Project() {
 				<hr />
 				<p> Projects</p>
 			</div>
-			<div className="project-container">
-				<div className="project-title">
-					<h2>Covid Tracker</h2>
-				</div>
-
-				<div className="project-img">
-					<img src={covid} alt="" />
-				</div>
-
-				<div className="project-desc">
-					<div className="project-nav">
-						<a href="">Code</a>
-						<a href="">Site</a>
+			<div className="projects">
+				<div className="project-container">
+					<div className="project-title">
+						<h2>Covid Tracker</h2>
 					</div>
-					<div className="project-content">
-						<p>
-							A simple application tracking down numbers of covid cases everyday
-						</p>
+
+					<div className="project-img">
+						<img src={covid} alt="" />
+					</div>
+
+					<div className="project-desc">
+						<div className="project-nav">
+							<a href="">Code</a>
+							<a href="">Site</a>
+						</div>
+						<div className="project-content">
+							<p>
+								A simple application tracking down numbers of covid cases
+								everyday
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div className="project-container">
-				<div className="project-title">
-					<h2>Covid Tracker</h2>
-				</div>
-
-				<div className="project-img">
-					<img src="https://i.ibb.co/3MR7txT/lighthouselabs.jpg" alt="" />
-				</div>
-
-				<div className="project-desc">
-					<div className="project-nav">
-						<a href="">Code</a>
-						<a href="">Site</a>
+				<div className="project-container">
+					<div className="project-title">
+						<h2>Covid Tracker</h2>
 					</div>
-					<div className="project-content">
-						<p>
-							A simple application tracking down numbers of covid cases everyday
-						</p>
+
+					<div className="project-img">
+						<img src={covid} alt="" />
+					</div>
+
+					<div className="project-desc">
+						<div className="project-nav">
+							<a href="">Code</a>
+							<a href="">Site</a>
+						</div>
+						<div className="project-content">
+							<p>
+								A simple application tracking down numbers of covid cases
+								everyday
+							</p>
+						</div>
+					</div>
+				</div>
+				<div className="project-container">
+					<div className="project-title">
+						<h2>Covid Tracker</h2>
+					</div>
+
+					<div className="project-img">
+						<img src={covid} alt="" />
+					</div>
+
+					<div className="project-desc">
+						<div className="project-nav">
+							<a href="">Code</a>
+							<a href="">Site</a>
+						</div>
+						<div className="project-content">
+							<p>
+								A simple application tracking down numbers of covid cases
+								everyday
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div className="project-container">
+					<div className="project-title">
+						<h2>Covid Tracker</h2>
+					</div>
+
+					<div className="project-img">
+						<img src={covid} alt="" />
+					</div>
+
+					<div className="project-desc">
+						<div className="project-nav">
+							<a href="">Code</a>
+							<a href="">Site</a>
+						</div>
+						<div className="project-content">
+							<p>
+								A simple application tracking down numbers of covid cases
+								everyday
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
