@@ -5,10 +5,9 @@ import {
 	FaChalkboardTeacher,
 	FaUserFriends,
 	FaBehance,
-	FaFacebook,
 	FaLinkedin,
-	FaTwitter,
-	FaSketch,
+	FaMailBulk,
+	FaGithub,
 } from "react-icons/fa";
 
 export const exp = [
@@ -107,27 +106,18 @@ export const sidebar = [
 export const social = [
 	{
 		id: 1,
-		url: "https://www.twitter.com",
-		icon: <FaFacebook />,
-	},
-	{
-		id: 2,
-		url: "https://www.twitter.com",
-		icon: <FaTwitter />,
-	},
-	{
-		id: 3,
-		url: "https://www.twitter.com",
+		url: "https://www.linkedin.com/in/kenneth-zhang-9a785673/",
 		icon: <FaLinkedin />,
 	},
 	{
-		id: 4,
-		url: "https://www.twitter.com",
-		icon: <FaBehance />,
+		id: 2,
+		url: "https://github.com/Kennethz374",
+		icon: <FaGithub />,
 	},
+
 	{
-		id: 5,
-		url: "https://www.twitter.com",
-		icon: <FaSketch />,
+		id: 4,
+		url: "mailto:kennethzhang374@gmail.com",
+		icon: <FaMailBulk />,
 	},
 ];
