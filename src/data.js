@@ -39,7 +39,7 @@ export const exp = [
 		organization: "Simon Fraser University",
 		image: "https://i.ibb.co/HYmr2wB/SFU.png",
 		desc: "Graduated with a Bachelor degree in Economics",
-		date: "2020",
+		date: "2013",
 	},
 ];
 
