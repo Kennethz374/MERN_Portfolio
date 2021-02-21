@@ -1,4 +1,4 @@
-## Create a webpage(<a>www.kennethz.netlify.app </a>) to keep all my projects at the same place.
+## Create a webpage(<a>https://kennethz.netlify.app/</a>) to keep all my projects at the same place.
 
 <br>
 
